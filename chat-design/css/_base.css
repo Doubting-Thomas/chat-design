@@ -31,4 +31,13 @@ body {
   font-family: "Rubik", sans-serif;
   font-size: 1.6rem;
   line-height: 1.6;
+  background-image: linear-gradient(
+    to right,
+    hsl(264, 100%, 61%),
+    hsl(293, 100%, 63%)
+  );
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 40% 80%;
+  transition: all .3s;
 }

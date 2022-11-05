@@ -13,10 +13,15 @@
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
   width: 100%;
   border-radius: 2rem;
+  transition: all 3s;
+  animation: moveInLeft 1s;
 }
 
 .product-text-box {
   width: 100%;
+  animation: moveInRight 1s;
+  transition: all 0.3s;
+  animation-delay: 0.5s;
 }
 
 .heading-bar {
@@ -181,7 +186,7 @@
   display: inline-block;
   background-color: var(--bg-color-3);
   position: absolute;
-  bottom: 3.8rem;
+  bottom: 1.3rem;
   right: 10rem;
   transform: translateY(-25rem);
   transform: translateX(8rem);
