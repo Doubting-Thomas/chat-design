@@ -1,16 +1,36 @@
-.section-container {
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  justify-content: space-between;
+
+  margin: 15rem 15rem;
+}
+
+.device-container {
   padding: 1rem;
   background-color: var(--bg-color-1);
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
-  width: 25%;
+  width: 100%;
   border-radius: 2rem;
-  margin: 30rem 30rem;
 }
 
-.white-bar {
+.product-text-box {
+  width: 100%;
+}
+
+.heading-bar {
+  height: 2.5rem;
   width: 10%;
+  border-radius: 1rem;
+  display: inline-block;
   background-color: var(--bg-color-1);
   position: absolute;
+  top: 15rem;
+  left: 30rem;
+  z-index: 1;
+  transform: translateX(-0.5rem);
+  transform: translateY(-0.3rem);
 }
 
 .user-box {
@@ -57,6 +77,7 @@
 .chat-container {
   background-color: hsl(210, 33%, 95%);
   padding: 1rem;
+  position: relative;
 }
 
 .first-chat-box {
@@ -135,6 +156,7 @@
 
 .timespan {
   margin-right: auto;
+  font-weight: 700;
 }
 
 .price {
@@ -150,4 +172,27 @@
   color: var(--text-color-4);
   border: none;
   outline: none;
+}
+
+.input-dot {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: var(--bg-color-3);
+  position: absolute;
+  bottom: 3.8rem;
+  right: 10rem;
+  transform: translateY(-25rem);
+  transform: translateX(8rem);
+}
+
+.heading-main {
+  color: var(--text-color-5);
+  font-weight: 700;
+}
+
+.text-desc {
+  color: var(--text-color-4);
+  font-weight: 400;
 }
